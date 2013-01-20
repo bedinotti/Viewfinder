@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83C74D5916AB8B2200B30E27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C74D5816AB8B2200B30E27 /* UIKit.framework */; };
+		83C74D5B16AB8B2200B30E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C74D5A16AB8B2200B30E27 /* Foundation.framework */; };
+		83C74D5D16AB8B2200B30E27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C74D5C16AB8B2200B30E27 /* CoreGraphics.framework */; };
+		83C74D6316AB8B2200B30E27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D6116AB8B2200B30E27 /* InfoPlist.strings */; };
+		83C74D6516AB8B2200B30E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74D6416AB8B2200B30E27 /* main.m */; };
+		83C74D6916AB8B2200B30E27 /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74D6816AB8B2200B30E27 /* CDAppDelegate.m */; };
+		83C74D6B16AB8B2200B30E27 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D6A16AB8B2200B30E27 /* Default.png */; };
+		83C74D6D16AB8B2200B30E27 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D6C16AB8B2200B30E27 /* Default@2x.png */; };
+		83C74D6F16AB8B2200B30E27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D6E16AB8B2200B30E27 /* Default-568h@2x.png */; };
+		83C74D7216AB8B2200B30E27 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74D7116AB8B2200B30E27 /* CDViewController.m */; };
+		83C74D7516AB8B2200B30E27 /* CDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D7316AB8B2200B30E27 /* CDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83C74D5416AB8B2200B30E27 /* Viewfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viewfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C74D5816AB8B2200B30E27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83C74D5A16AB8B2200B30E27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83C74D5C16AB8B2200B30E27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83C74D6016AB8B2200B30E27 /* Viewfinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Viewfinder-Info.plist"; sourceTree = "<group>"; };
+		83C74D6216AB8B2200B30E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83C74D6416AB8B2200B30E27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83C74D6616AB8B2200B30E27 /* Viewfinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Viewfinder-Prefix.pch"; sourceTree = "<group>"; };
+		83C74D6716AB8B2200B30E27 /* CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
+		83C74D6816AB8B2200B30E27 /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
+		83C74D6A16AB8B2200B30E27 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83C74D6C16AB8B2200B30E27 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		83C74D6E16AB8B2200B30E27 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		83C74D7016AB8B2200B30E27 /* CDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
+		83C74D7116AB8B2200B30E27 /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
+		83C74D7416AB8B2200B30E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C74D5116AB8B2200B30E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C74D5916AB8B2200B30E27 /* UIKit.framework in Frameworks */,
+				83C74D5B16AB8B2200B30E27 /* Foundation.framework in Frameworks */,
+				83C74D5D16AB8B2200B30E27 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C74D4916AB8B2200B30E27 = {
+			isa = PBXGroup;
+			children = (
+				83C74D5E16AB8B2200B30E27 /* Viewfinder */,
+				83C74D5716AB8B2200B30E27 /* Frameworks */,
+				83C74D5516AB8B2200B30E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83C74D5516AB8B2200B30E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C74D5416AB8B2200B30E27 /* Viewfinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C74D5716AB8B2200B30E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83C74D5816AB8B2200B30E27 /* UIKit.framework */,
+				83C74D5A16AB8B2200B30E27 /* Foundation.framework */,
+				83C74D5C16AB8B2200B30E27 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83C74D5E16AB8B2200B30E27 /* Viewfinder */ = {
+			isa = PBXGroup;
+			children = (
+				83C74D6716AB8B2200B30E27 /* CDAppDelegate.h */,
+				83C74D6816AB8B2200B30E27 /* CDAppDelegate.m */,
+				83C74D7016AB8B2200B30E27 /* CDViewController.h */,
+				83C74D7116AB8B2200B30E27 /* CDViewController.m */,
+				83C74D7316AB8B2200B30E27 /* CDViewController.xib */,
+				83C74D5F16AB8B2200B30E27 /* Supporting Files */,
+			);
+			path = Viewfinder;
+			sourceTree = "<group>";
+		};
+		83C74D5F16AB8B2200B30E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83C74D6016AB8B2200B30E27 /* Viewfinder-Info.plist */,
+				83C74D6116AB8B2200B30E27 /* InfoPlist.strings */,
+				83C74D6416AB8B2200B30E27 /* main.m */,
+				83C74D6616AB8B2200B30E27 /* Viewfinder-Prefix.pch */,
+				83C74D6A16AB8B2200B30E27 /* Default.png */,
+				83C74D6C16AB8B2200B30E27 /* Default@2x.png */,
+				83C74D6E16AB8B2200B30E27 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C74D5316AB8B2200B30E27 /* Viewfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C74D7816AB8B2200B30E27 /* Build configuration list for PBXNativeTarget "Viewfinder" */;
+			buildPhases = (
+				83C74D5016AB8B2200B30E27 /* Sources */,
+				83C74D5116AB8B2200B30E27 /* Frameworks */,
+				83C74D5216AB8B2200B30E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Viewfinder;
+			productName = Viewfinder;
+			productReference = 83C74D5416AB8B2200B30E27 /* Viewfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C74D4B16AB8B2200B30E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CD;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chris Downie";
+			};
+			buildConfigurationList = 83C74D4E16AB8B2200B30E27 /* Build configuration list for PBXProject "Viewfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83C74D4916AB8B2200B30E27;
+			productRefGroup = 83C74D5516AB8B2200B30E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C74D5316AB8B2200B30E27 /* Viewfinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83C74D5216AB8B2200B30E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C74D6316AB8B2200B30E27 /* InfoPlist.strings in Resources */,
+				83C74D6B16AB8B2200B30E27 /* Default.png in Resources */,
+				83C74D6D16AB8B2200B30E27 /* Default@2x.png in Resources */,
+				83C74D6F16AB8B2200B30E27 /* Default-568h@2x.png in Resources */,
+				83C74D7516AB8B2200B30E27 /* CDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C74D5016AB8B2200B30E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C74D6516AB8B2200B30E27 /* main.m in Sources */,
+				83C74D6916AB8B2200B30E27 /* CDAppDelegate.m in Sources */,
+				83C74D7216AB8B2200B30E27 /* CDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83C74D6116AB8B2200B30E27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C74D6216AB8B2200B30E27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83C74D7316AB8B2200B30E27 /* CDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C74D7416AB8B2200B30E27 /* en */,
+			);
+			name = CDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83C74D7616AB8B2200B30E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83C74D7716AB8B2200B30E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C74D7916AB8B2200B30E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Viewfinder/Viewfinder-Prefix.pch";
+				INFOPLIST_FILE = "Viewfinder/Viewfinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83C74D7A16AB8B2200B30E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Viewfinder/Viewfinder-Prefix.pch";
+				INFOPLIST_FILE = "Viewfinder/Viewfinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C74D4E16AB8B2200B30E27 /* Build configuration list for PBXProject "Viewfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C74D7616AB8B2200B30E27 /* Debug */,
+				83C74D7716AB8B2200B30E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C74D7816AB8B2200B30E27 /* Build configuration list for PBXNativeTarget "Viewfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C74D7916AB8B2200B30E27 /* Debug */,
+				83C74D7A16AB8B2200B30E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C74D4B16AB8B2200B30E27 /* Project object */;
+}
