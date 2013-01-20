@@ -19,6 +19,7 @@
     self.viewController = [[CDViewController alloc] initWithNibName:@"CDViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    [CDViewfinder start];
     return YES;
 }
 

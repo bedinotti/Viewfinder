@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CDViewfinder.h"
 @class CDViewController;
 
 @interface CDAppDelegate : UIResponder <UIApplicationDelegate>
