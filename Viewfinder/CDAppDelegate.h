@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "CDViewfinder.h"
-@class CDViewController;
+@class CDDemoViewController;
 
 @interface CDAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) CDViewController *viewController;
+@property (strong, nonatomic) CDDemoViewController *viewController;
 
 @end

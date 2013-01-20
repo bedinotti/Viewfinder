@@ -6,14 +6,14 @@
 //  Copyright (c) 2013 Chris Downie. All rights reserved.
 //
 
-#import "CDViewController.h"
+#import "CDDemoViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
-@interface CDViewController ()
+@interface CDDemoViewController ()
 
 @end
 
-@implementation CDViewController
+@implementation CDDemoViewController
 
 - (id)init
 {

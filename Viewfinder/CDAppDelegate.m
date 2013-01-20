@@ -8,7 +8,7 @@
 
 #import "CDAppDelegate.h"
 
-#import "CDViewController.h"
+#import "CDDemoViewController.h"
 
 @implementation CDAppDelegate
 
@@ -16,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[CDViewController alloc] initWithNibName:@"CDViewController" bundle:nil];
+    self.viewController = [[CDDemoViewController alloc] initWithNibName:@"CDViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     [CDViewfinder start];

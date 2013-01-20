@@ -16,9 +16,9 @@
 		83C74D6B16AB8B2200B30E27 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D6A16AB8B2200B30E27 /* Default.png */; };
 		83C74D6D16AB8B2200B30E27 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D6C16AB8B2200B30E27 /* Default@2x.png */; };
 		83C74D6F16AB8B2200B30E27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D6E16AB8B2200B30E27 /* Default-568h@2x.png */; };
-		83C74D7216AB8B2200B30E27 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74D7116AB8B2200B30E27 /* CDViewController.m */; };
-		83C74D7516AB8B2200B30E27 /* CDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D7316AB8B2200B30E27 /* CDViewController.xib */; };
-		83D0B2B816AC453A00220D82 /* CDViewfinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0B2B716AC453A00220D82 /* CDViewfinder.m */; };
+		83C74D7216AB8B2200B30E27 /* CDDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C74D7116AB8B2200B30E27 /* CDDemoViewController.m */; };
+		83C74D7516AB8B2200B30E27 /* CDDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C74D7316AB8B2200B30E27 /* CDDemoViewController.xib */; };
+		83D0B2C916AC5FF400220D82 /* CDViewfinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0B2C816AC5FF400220D82 /* CDViewfinder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		83C74D6A16AB8B2200B30E27 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		83C74D6C16AB8B2200B30E27 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		83C74D6E16AB8B2200B30E27 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		83C74D7016AB8B2200B30E27 /* CDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
-		83C74D7116AB8B2200B30E27 /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
-		83C74D7416AB8B2200B30E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController.xib; sourceTree = "<group>"; };
-		83D0B2B616AC453A00220D82 /* CDViewfinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDViewfinder.h; sourceTree = "<group>"; };
-		83D0B2B716AC453A00220D82 /* CDViewfinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDViewfinder.m; sourceTree = "<group>"; };
+		83C74D7016AB8B2200B30E27 /* CDDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDemoViewController.h; sourceTree = "<group>"; };
+		83C74D7116AB8B2200B30E27 /* CDDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDemoViewController.m; sourceTree = "<group>"; };
+		83C74D7416AB8B2200B30E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDDemoViewController.xib; sourceTree = "<group>"; };
+		83D0B2C716AC5FF400220D82 /* CDViewfinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDViewfinder.h; sourceTree = "<group>"; };
+		83D0B2C816AC5FF400220D82 /* CDViewfinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDViewfinder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,9 @@
 		83C74D4916AB8B2200B30E27 = {
 			isa = PBXGroup;
 			children = (
-				83C74D5E16AB8B2200B30E27 /* Viewfinder */,
+				83D0B2C716AC5FF400220D82 /* CDViewfinder.h */,
+				83D0B2C816AC5FF400220D82 /* CDViewfinder.m */,
+				83C74D5E16AB8B2200B30E27 /* ViewfinderDemo */,
 				83C74D5716AB8B2200B30E27 /* Frameworks */,
 				83C74D5516AB8B2200B30E27 /* Products */,
 			);
@@ -83,18 +85,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		83C74D5E16AB8B2200B30E27 /* Viewfinder */ = {
+		83C74D5E16AB8B2200B30E27 /* ViewfinderDemo */ = {
 			isa = PBXGroup;
 			children = (
 				83C74D6716AB8B2200B30E27 /* CDAppDelegate.h */,
-				83D0B2B616AC453A00220D82 /* CDViewfinder.h */,
-				83D0B2B716AC453A00220D82 /* CDViewfinder.m */,
 				83C74D6816AB8B2200B30E27 /* CDAppDelegate.m */,
-				83C74D7016AB8B2200B30E27 /* CDViewController.h */,
-				83C74D7116AB8B2200B30E27 /* CDViewController.m */,
-				83C74D7316AB8B2200B30E27 /* CDViewController.xib */,
+				83C74D7016AB8B2200B30E27 /* CDDemoViewController.h */,
+				83C74D7116AB8B2200B30E27 /* CDDemoViewController.m */,
+				83C74D7316AB8B2200B30E27 /* CDDemoViewController.xib */,
 				83C74D5F16AB8B2200B30E27 /* Supporting Files */,
 			);
+			name = ViewfinderDemo;
 			path = Viewfinder;
 			sourceTree = "<group>";
 		};
@@ -168,7 +169,7 @@
 				83C74D6B16AB8B2200B30E27 /* Default.png in Resources */,
 				83C74D6D16AB8B2200B30E27 /* Default@2x.png in Resources */,
 				83C74D6F16AB8B2200B30E27 /* Default-568h@2x.png in Resources */,
-				83C74D7516AB8B2200B30E27 /* CDViewController.xib in Resources */,
+				83C74D7516AB8B2200B30E27 /* CDDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,8 +182,8 @@
 			files = (
 				83C74D6516AB8B2200B30E27 /* main.m in Sources */,
 				83C74D6916AB8B2200B30E27 /* CDAppDelegate.m in Sources */,
-				83C74D7216AB8B2200B30E27 /* CDViewController.m in Sources */,
-				83D0B2B816AC453A00220D82 /* CDViewfinder.m in Sources */,
+				83C74D7216AB8B2200B30E27 /* CDDemoViewController.m in Sources */,
+				83D0B2C916AC5FF400220D82 /* CDViewfinder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,12 +198,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		83C74D7316AB8B2200B30E27 /* CDViewController.xib */ = {
+		83C74D7316AB8B2200B30E27 /* CDDemoViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				83C74D7416AB8B2200B30E27 /* en */,
 			);
-			name = CDViewController.xib;
+			name = CDDemoViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

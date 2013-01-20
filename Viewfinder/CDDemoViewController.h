@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CDViewController : UIViewController
+@interface CDDemoViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIView *topView;
 @property (weak, nonatomic) IBOutlet UIView *bottomView;
 
