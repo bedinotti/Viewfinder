@@ -24,6 +24,7 @@
     }
     return sharedInstance;
 }
+
 - (id)init
 {
     self = [super init];
@@ -51,11 +52,23 @@
     NSMutableString *output = @"".mutableCopy;
     for (int index = viewStack.count-1; index >= 0; index--) {
         UIView *v = [viewStack objectAtIndex:index];
-        [output appendFormat:@"%@%@ - tag %d", indent, [v class], [v tag]];
+        [output appendFormat:@"%@%@ - %@", indent, [v class], [[self viewControllerForView:v] class]];
         [indent appendString:@"   "];
     }
     
     NSLog(@"%@", output);
+}
+
+- (UIViewController *)viewControllerForView:(UIView *)view
+{
+    id nextResponder = [view nextResponder];
+    if ([nextResponder isKindOfClass:[UIViewController class]]) {
+        return nextResponder;
+    } else if ([nextResponder isKindOfClass:[UIView class]]) {
+        return [self viewControllerForView:nextResponder];
+    } else {
+        return nil;
+    }
 }
 
 #pragma mark - UIGestureRecognizer delegate
