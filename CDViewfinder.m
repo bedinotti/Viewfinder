@@ -61,14 +61,7 @@
 
 - (UIViewController *)viewControllerForView:(UIView *)view
 {
-    id nextResponder = [view nextResponder];
-    if ([nextResponder isKindOfClass:[UIViewController class]]) {
-        return nextResponder;
-    } else if ([nextResponder isKindOfClass:[UIView class]]) {
-        return [self viewControllerForView:nextResponder];
-    } else {
-        return nil;
-    }
+    return [view valueForKey:@"_viewDelegate"];
 }
 
 #pragma mark - UIGestureRecognizer delegate
